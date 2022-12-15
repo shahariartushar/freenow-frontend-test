@@ -1,0 +1,318 @@
+/* tablets */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    flex: 1;
+    order: 1;
+  }
+
+  .header {
+    flex: 1;
+    order: 1;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .divider {
+    flex: 2;
+    order: 2;
+    height: 1px;
+    background: #f1f2f4;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .vehiclesComponent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 1% 1% 1%;
+    align-items: center;
+    flex: 2;
+    order: 2;
+  }
+
+  .mapComponent {
+    flex: 1;
+    order: 1;
+    margin: 1% 0% 0% 0%;
+  }
+
+  .tableComponent {
+    flex: 2;
+    order: 2;
+    margin: 1% 0% 0% 1%;
+  }
+
+  .mapStyle {
+    display: flex;
+  }
+
+  .tableStyle {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .paginationStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .logoStyle {
+    display: inline-flex;
+    align-items: flex-end;
+    order: 0;
+    margin: 0% 0% 0% 1%;
+  }
+}
+
+/* mid screen devices */
+@media only screen and (min-width: 960px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    flex: 1;
+    order: 1;
+  }
+
+  .header {
+    flex: 1;
+    order: 1;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .divider {
+    flex: 2;
+    order: 2;
+    height: 1px;
+    background: #f1f2f4;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .vehiclesComponent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 1% 1% 1%;
+    align-items: flex-start;
+    flex: 2;
+    order: 2;
+  }
+
+  .mapComponent {
+    flex: 1;
+    order: 1;
+    /* margin: 1% 0% 0% 0%; */
+  }
+
+  .tableComponent {
+    flex: 2;
+    order: 2;
+    margin: 0% 0% 0% 1%;
+  }
+
+  .mapStyle {
+    display: flex;
+  }
+
+  .tableStyle {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .paginationStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .logoStyle {
+    display: inline-flex;
+    align-items: flex-end;
+    order: 0;
+    margin: 0% 0% 0% 1%;
+  }
+}
+
+/* large screen */
+@media only screen and (min-width: 1440px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .header {
+    flex: 1;
+    order: 1;
+    align-items: flex-start;
+    background: #ffffff;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .divider {
+    flex: 2;
+    order: 2;
+    height: 1px;
+    background: #f1f2f4;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .vehiclesComponent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 1% 1% 1%;
+    align-items: flex-start;
+  }
+
+  .mapComponent {
+    flex: 1;
+    order: 1;
+  }
+
+  .tableComponent {
+    flex: 2;
+    order: 2;
+    margin: 0% 0% 0% 1%;
+  }
+
+  .mapStyle {
+    display: flex;
+  }
+
+  .tableStyle {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .paginationStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .logoStyle {
+    display: inline-flex;
+    align-items: flex-end;
+    order: 0;
+    margin: 0% 0% 0% 1%;
+  }
+}
+
+.tableHeaderLicensePlateComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableHeaderLicensePlateLabel {
+  flex: 1;
+  order: 1;
+}
+
+.tableHeaderSortIcon {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  order: 2;
+}
+
+.coordinatesCol {
+  width: 130px;
+  min-width: 130px;
+  max-width: 130px;
+  left: 0px;
+}
+
+.addressCol {
+  width: 207px;
+  min-width: 207px;
+  max-width: 207px;
+  left: 0px;
+}
+
+.stateCol {
+  width: 77px;
+  min-width: 77px;
+  max-width: 77px;
+  left: 0px;
+}
+
+.conditionCol {
+  width: 77px;
+  min-width: 77px;
+  max-width: 77px;
+  left: 0px;
+}
+
+.typeCol {
+  width: 94px;
+  min-width: 94px;
+  max-width: 94px;
+  left: 0px;
+}
