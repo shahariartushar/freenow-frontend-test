@@ -23,7 +23,7 @@ export const MapComponent: React.FC<MapComponentPropsType> = ({
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyA5mCRZyI27Avzwzqlum-6KWCXIjty-ASo",
+    googleMapsApiKey: "YOUR_API_KEY",
   })
 
   // Set bounderies
